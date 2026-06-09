@@ -124,3 +124,35 @@ public:
     }
 };
 
+int main()
+    {
+        binarytree obj;
+
+        while (true)
+        {
+            cout << "\nmenu" << endl;
+            cout << "1. implement insert operation" << endl;
+            cout << "2. implement inorder traversal" << endl;
+            cout << "3. implement preorder traversal" << endl;
+            cout << "4. implement postorder traversal" << endl;
+            cout << "5. exit" << endl;
+            cout << "\nenter your choice: " << endl;
+
+            char ch;
+            cin >> ch;
+
+            cout << endl;
+
+            switch (ch)
+            {
+            case '1':
+            {
+                cout << "enter a word: ";
+                string word;
+                cin >> word;
+                obj.insert(word);
+                break;
+            }
+            
+    return 0;
+    }
