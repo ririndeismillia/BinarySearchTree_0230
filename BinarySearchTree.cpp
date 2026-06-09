@@ -39,5 +39,7 @@ public:
         node *parent = NULL;
         node *currentnode = NULL;
 
+        search(element, parent, currentnode);
+
     }
-};    
+};
